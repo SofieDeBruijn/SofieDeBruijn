@@ -1825,7 +1825,7 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
-    background: url("../../images/front_image.jpg") no-repeat center center;
+    background: url("../../images/front_image.png") no-repeat center center;
     background-size: cover;
     width: 100%;
 }
