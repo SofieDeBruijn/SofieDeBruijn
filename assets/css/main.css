@@ -1651,7 +1651,7 @@ body.is-touch .main {
 @media screen and (max-width: 1920px) {
 
     .main.style2 .content {
-        width: 40%;
+        width: 70%;
     }
 
 }
@@ -1825,7 +1825,7 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
-    background: url("../../images/front_image.jpg") no-repeat center center;
+    background: url("../../images/front_image3.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
 }
@@ -1899,7 +1899,7 @@ body.is-touch .main {
 
 #mbYTP_bgndVideo{
     background: rgba(81, 150, 191, 0.60);
-    #background: url("../../images/youtube/dont_you_remember.jpg") no-repeat center center;
+    #background: url("../../images/front_image2.jpg") no-repeat center center;
     background-size: cover;
 }
 #bgndVideo {
@@ -1910,6 +1910,6 @@ body.is-touch .main {
     top: 0;
     left: 0;
     z-index: 0;
-    #background: url("../../images/youtube/dont_you_remember.jpg") no-repeat center center;
+    #background: url("../../images/front_image2.jpg") no-repeat center center;
     background-size: cover;
 }
