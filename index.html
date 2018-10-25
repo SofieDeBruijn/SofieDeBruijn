@@ -63,23 +63,31 @@
             <h2>Agenda</h2>
         </header>
         <table>
-             <tr>
+             <tr data-event-date="2018-09-29">
                 <td>29 september, 14:30 uur</td>
                 <td><a href="https://www.beleefwoerden.com/nl/evenementen/758251032/kazerne-live-festival">Kazerne
                     Live</a>
                 </td>
             </tr>
-            <tr>
+            <tr data-event-date="2018-09-30">
                 <td>30 september</td>
                 <td>Voor 't Levend beurs - Nijmegen</td>
             </tr>
-            <tr>
+            <tr data-event-date="2018-10-26">
+                <td>26 oktober</td>
+                <td><a href="https://www.facebook.com/WisseloordResto/">Wisseloord 'In The Woods'</a></td>
+            </tr>
+            <tr data-event-date="2018-10-27">
+                <td>27 oktober</td>
+                <td>Jubileumfeest Wereldwinkel Gouda</td>
+            </tr>
+            <tr data-event-date="2019-01-18">
                 <td>18 januari 2019</td>
                 <td>4x Dutch female singer/songwriters<br/>
                 Parkvilla theater Alphen aan den Rijn<br/>
                 <a href="https://www.parkvilla.nl/evenementen/56/4x_Dutch_female_singer-songwriters/">Tickets</a></td>
             </tr>
-            <tr>
+            <tr data-event-date="2019-04-13">
                 <td>13 april 2019, 20:00 uur</td>
                 <td><a href="http://www.theatertussendeschuifdeuren.nl/">Theater tussen de schuifdeuren</a> - Heusden</td>
             </tr>
@@ -441,6 +449,12 @@
     ga('create', 'UA-93687326-1', 'auto');
     ga('send', 'pageview');
 
+    $('tr[data-event-date]').filter(function () {
+        console.log($(this));
+        var nu = new Date();
+        nu.setHours(0,0,0,0);
+        return new Date($(this).data('event-date')) < nu;
+    }).css('display', 'none');
 </script>
 </body>
 </html>
