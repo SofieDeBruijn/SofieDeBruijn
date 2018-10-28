@@ -1506,6 +1506,23 @@ body {
     min-height: 100%;
 }
 
+.agenda tr td {
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+/*.main.style1 > .content > header > h2 {*/
+    /*-moz-align-items: left;*/
+    /*-webkit-align-items: flex-start;*/
+    /*-ms-align-items: left;*/
+    /*align-items: start;*/
+    /*-moz-justify-content: left;*/
+    /*-webkit-justify-content: flex-start;*/
+    /*-ms-justify-content: left;*/
+    /*justify-content: left;*/
+    /*text-align: left;*/
+    /*padding: 3em 0 3em 0;*/
+/*}*/
+
 .main.style1 {
     -moz-align-items: center;
     -webkit-align-items: center;
