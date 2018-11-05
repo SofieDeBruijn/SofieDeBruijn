@@ -1507,10 +1507,18 @@ body {
 }
 
 .agenda tr td {
-    padding-bottom: 10px;
-    line-height: 1.5;
+    padding-bottom: 20px;
+    line-height: 1.2;
 }
-/*.main.style1 > .content > header > h2 {*/
+
+.agenda tr td:first-of-type {
+    padding-right: 20px;
+}
+
+.agenda {
+    padding: 150px;
+}
+    /*.main.style1 > .content > header > h2 {*/
     /*-moz-align-items: left;*/
     /*-webkit-align-items: flex-start;*/
     /*-ms-align-items: left;*/
