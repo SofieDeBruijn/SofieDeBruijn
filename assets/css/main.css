@@ -1851,9 +1851,10 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
+    background: url("../../images/banner.png") no-repeat center center;
     background-size: contain;
     width: 100%;
-    background: black url("../../images/banner.png") no-repeat center center;
+    background-color: black;
 }
 
 #intro h2 {
