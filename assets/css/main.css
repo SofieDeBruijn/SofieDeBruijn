@@ -10,7 +10,7 @@
 
 /* Reset */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button{
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
     margin: 0;
     padding: 0;
     border: 0;
@@ -640,16 +640,16 @@ button {
     -webkit-transition: background-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out;
-    background-color: #98c593;
+    background-color: #01684d;
     border: 0;
-    border-radius: 3.5em;
+    border-radius: 0.25em;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
     height: 3.5em;
     line-height: 3.5em;
     outline: 0;
-    padding: 0 2em 0 2em;
+    /*padding: 0 1em 0 1em;*/
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -697,7 +697,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 .button:hover,
 button:hover {
-    background-color: #a8cea4;
+    background-color: #01b182;
 }
 
 input[type="button"]:active,
@@ -705,7 +705,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 .button:active,
 button:active {
-    background-color: #88bc82;
+    background-color: #01cd96;
 }
 
 input[type="button"].style2,
@@ -1304,7 +1304,6 @@ body.is-touch .poptrox-popup .closer {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 45em;
     max-width: 100%;
     margin: 0 auto 2em auto;
 }
@@ -1318,9 +1317,27 @@ body.is-touch .poptrox-popup .closer {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-    width: 50%;
+    width: 33%;
     position: relative;
     opacity: 1.0;
+}
+
+@media screen and (min-width: 480px) {
+    .gallery article {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .gallery article {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery article {
+        width: 25%;
+    }
 }
 
 .gallery article .image {
@@ -1340,33 +1357,33 @@ body.is-touch .poptrox-popup .closer {
     opacity: 0;
 }
 
-.gallery.inactive article.from-left {
-    -moz-transform: translateX(-14em);
-    -webkit-transform: translateX(-14em);
-    -ms-transform: translateX(-14em);
-    transform: translateX(-14em);
-}
+/*.gallery.inactive article.from-left {*/
+    /*-moz-transform: translateX(-14em);*/
+    /*-webkit-transform: translateX(-14em);*/
+    /*-ms-transform: translateX(-14em);*/
+    /*transform: translateX(-14em);*/
+/*}*/
 
-.gallery.inactive article.from-right {
-    -moz-transform: translateX(14em);
-    -webkit-transform: translateX(14em);
-    -ms-transform: translateX(14em);
-    transform: translateX(14em);
-}
+/*.gallery.inactive article.from-right {*/
+    /*-moz-transform: translateX(14em);*/
+    /*-webkit-transform: translateX(14em);*/
+    /*-ms-transform: translateX(14em);*/
+    /*transform: translateX(14em);*/
+/*}*/
 
-.gallery.inactive article.from-top {
-    -moz-transform: translateY(-7em);
-    -webkit-transform: translateY(-7em);
-    -ms-transform: translateY(-7em);
-    transform: translateY(-7em);
-}
+/*.gallery.inactive article.from-top {*/
+    /*-moz-transform: translateY(-7em);*/
+    /*-webkit-transform: translateY(-7em);*/
+    /*-ms-transform: translateY(-7em);*/
+    /*transform: translateY(-7em);*/
+/*}*/
 
-.gallery.inactive article.from-bottom {
-    -moz-transform: translateY(7em);
-    -webkit-transform: translateY(7em);
-    -ms-transform: translateY(7em);
-    transform: translateY(7em);
-}
+/*.gallery.inactive article.from-bottom {*/
+    /*-moz-transform: translateY(7em);*/
+    /*-webkit-transform: translateY(7em);*/
+    /*-ms-transform: translateY(7em);*/
+    /*transform: translateY(7em);*/
+/*}*/
 
 @media screen and (max-width: 480px) {
 
@@ -1505,32 +1522,6 @@ body {
 .main.fullscreen {
     min-height: 100%;
 }
-
-.agenda tr td {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 1.2;
-}
-
-.agenda tr td:first-of-type {
-    padding-right: 20px;
-}
-
-.agenda {
-    padding: 150px;
-}
-    /*.main.style1 > .content > header > h2 {*/
-    /*-moz-align-items: left;*/
-    /*-webkit-align-items: flex-start;*/
-    /*-ms-align-items: left;*/
-    /*align-items: start;*/
-    /*-moz-justify-content: left;*/
-    /*-webkit-justify-content: flex-start;*/
-    /*-ms-justify-content: left;*/
-    /*justify-content: left;*/
-    /*text-align: left;*/
-    /*padding: 3em 0 3em 0;*/
-/*}*/
 
 .main.style1 {
     -moz-align-items: center;
@@ -1756,8 +1747,8 @@ body.is-touch .main {
     height: 5em;
     line-height: 5em;
     margin: 0;
-    background: #39454b;
-    color: rgba(185, 186, 187, 0.5);
+    background: #090912;
+    color: rgba(235, 236, 237, 0.5);
     overflow: hidden;
 }
 
@@ -1850,8 +1841,12 @@ body.is-touch .main {
 
 /* Intro */
 
+.banner {
+    width: 100%;
+    object-fit: contain;
+}
 #intro {
-    background: url("../../images/banner.png") no-repeat center center;
+    /*background: url("../../images/banner.png") no-repeat center center;*/
     background-size: contain;
     width: 100%;
     background-color: black;
@@ -1898,14 +1893,14 @@ body.is-touch .main {
 }
 
 #contact .box {
-    -moz-transition: -moz-transform 1s ease;
-    -webkit-transition: -webkit-transform 1s ease;
-    -ms-transition: -ms-transform 1s ease;
-    transition: transform 1s ease;
-    -moz-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
+    /*-moz-transition: -moz-transform 1s ease;*/
+    /*-webkit-transition: -webkit-transform 1s ease;*/
+    /*-ms-transition: -ms-transform 1s ease;*/
+    /*transition: transform 1s ease;*/
+    /*-moz-transform: translateY(0);*/
+    /*-webkit-transform: translateY(0);*/
+    /*-ms-transform: translateY(0);*/
+    /*transform: translateY(0);*/
     position: relative;
 }
 
@@ -1924,11 +1919,12 @@ body.is-touch .main {
 
 }
 
-#mbYTP_bgndVideo{
+#mbYTP_bgndVideo {
     background: rgba(81, 150, 191, 0.60);
     #background: url("../../images/front_image2.jpg") no-repeat center center;
     background-size: cover;
 }
+
 #bgndVideo {
     width: 100%;
     height: 400px;
@@ -1939,4 +1935,82 @@ body.is-touch .main {
     z-index: 0;
     #background: url("../../images/front_image2.jpg") no-repeat center center;
     background-size: cover;
+}
+
+
+.agenda {
+    width: 100%;
+}
+
+.agenda-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    border-top: solid 1px black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.agenda-item div {
+    flex-grow: 1;
+    width: 100%;
+    flex-basis: 30%;
+}
+
+.agenda-item .date {
+    /*background-color: red;*/
+    flex-basis: 20%;
+}
+
+.agenda-item .desc {
+    /*background-color: green;*/
+    font-weight: bold;
+    flex-basis: 30%;
+}
+
+.agenda-item .place {
+    /*background-color: blue;*/
+    flex-basis: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .agenda-item .place {
+        display: none;
+    }
+}
+
+.agenda-item .tickets {
+    /*background-color: orange;*/
+    min-width: 110px;
+    flex-basis: 1%;
+
+}
+
+.agenda-item .info {
+    /*background-color: yellow;*/
+    min-width: 110px;
+    flex-basis: 1%;
+}
+
+.agenda form {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.info-button {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+.ticket-button {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.btn-primary {
+    padding: 0 1em 0 1em;
 }
