@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f9d6826-603c-4be8-bc51-a7009e61a61b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/front_image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/front_image3.jpg" afterDir="false" />
+    <list default="true" id="4f9d6826-603c-4be8-bc51-a7009e61a61b" name="Default" comment="Agenda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/youtube/la_vie_en_rose.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,37 +22,27 @@
       <option value="module" />
     </option>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2035618630">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="7" />
-          <entry key="html" value="234" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="234" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="88" column="107" selection-start-line="88" selection-start-column="107" selection-end-line="88" selection-end-column="107" />
+            <state relative-caret-position="453">
+              <caret line="291" column="20" selection-start-line="291" selection-start-column="20" selection-end-line="291" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/youtube/a_thousand_years.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/structural.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -82,34 +70,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="1653" column="16" selection-start-line="1653" selection-start-column="16" selection-end-line="1653" selection-end-column="16" />
+            <state relative-caret-position="507">
+              <caret line="1637" lean-forward="true" selection-start-line="1637" selection-end-line="1637" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/front_image3.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>from-leftQQQ</find>
-      <find>jpg</find>
-      <find>from-rightQQQ</find>
-      <find>youtube from-right</find>
-      <find>youtube from-Qleft</find>
-      <find>&lt;article class=&quot;youtube from-left&quot;&gt;</find>
-      <find>&lt;article class=&quot;youtube from-rightQQQ&quot;&gt;</find>
-      <find>&lt;article class=&quot;youtube from-right&quot;&gt;</find>
-      <find>jp</find>
+      <find>front_im</find>
+      <find>button</find>
+      <find>bannw</find>
+      <find>rpl</find>
+      <find>podi</find>
+      <find>u</find>
+      <find>uur</find>
+      <find>td</find>
+      <find>&lt;div&gt;</find>
+      <find>agend</find>
+      <find>&lt;div class=&quot;datum&quot;&gt;</find>
+      <find>class=&quot;ticket</find>
+      <find>class=&quot;ticket&quot;</find>
+      <find>107</find>
+      <find>schu</find>
+      <find>&lt;input type=&quot;submit&quot; value=&quot;Info&quot;/&gt;</find>
+      <find>submit</find>
+      <find>subm</find>
+      <find>tick</find>
+      <find>&lt;input type=&quot;submit&quot; value=&quot;Tickets&quot;/&gt;</find>
+      <find>form</find>
+      <find>bann</find>
+      <find>intro</find>
+      <find>twp</find>
       <find>from-left</find>
-      <find>fronty</find>
-      <find>front</find>
-      <find>velocity</find>
-      <find>scrollex</find>
-      <find>delay</find>
-      <find>from-Qleft</find>
-      <find>bgndVideo</find>
-      <find>front_</find>
+      <find>media</find>
+      <find>submi</find>
+      <find>footer</find>
+      <find>#eeeeee</find>
+      <find>la_v</find>
     </findStrings>
     <replaceStrings>
       <replace>from-right</replace>
@@ -117,6 +122,13 @@
       <replace>youtube from-right</replace>
       <replace>&lt;article class=&quot;youtube from-QQQleft&quot;&gt;</replace>
       <replace>&lt;article class=&quot;youtube from-left&quot;&gt;</replace>
+      <replace>left</replace>
+      <replace>div</replace>
+      <replace>&lt;div class=&quot;datum&quot;&gt;</replace>
+      <replace>&lt;div class=&quot;date&quot;&gt;</replace>
+      <replace>class=&quot;tickets&quot;</replace>
+      <replace>&lt;input type=&quot;submit&quot; class=&quot;info-button&quot; value=&quot;Info&quot;/&gt;</replace>
+      <replace>&lt;input type=&quot;submit&quot; class=&quot;ticket-button&quot; value=&quot;Tickets&quot;/&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,8 +147,6 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
@@ -144,15 +154,9 @@
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="2572" />
-    <option name="height" value="1565" />
+    <option name="width" value="2560" />
+    <option name="height" value="1600" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,13 +190,14 @@
               <item name="websiteSofieGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="websiteSofieGithub" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websiteSofieGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="websiteSofieGithub" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websiteSofieGithub" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -229,8 +233,8 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536391052564" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../docs/knowit/css-flexbox" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548278341078" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../plamogit/scanct/scanctplatform" />
     <property name="options.lastSelected" value="Errors" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -247,8 +251,8 @@
       <recent name="C:\Users\mdebruijn\Dropbox\familie_shared\Sofie\websiteSofieGithubPages\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Martijn\Dropbox\familie_shared2\Sofie\websiteSofieGithub\images\youtube" />
       <recent name="C:\Users\Martijn\Dropbox\familie_shared2\Sofie\websiteSofieGithub\images" />
+      <recent name="C:\Users\Martijn\Dropbox\familie_shared2\Sofie\websiteSofieGithub\images\youtube" />
       <recent name="C:\Users\mdebruijn\Dropbox\familie_shared\Sofie\websiteSofieGithub\images\youtube" />
       <recent name="C:\Users\mdebruijn\Dropbox\familie_shared\Sofie\websiteSofieGithubPages\images\youtube" />
     </key>
@@ -265,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html#agenda">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -294,66 +298,30 @@
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
@@ -388,7 +356,9 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
       <option name="BCName" value="" />
@@ -402,7 +372,9 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -411,14 +383,9 @@
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -431,18 +398,22 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/websiteSofieGithub/websiteSofieGithubPages/index.html">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/websiteSofieGithub/websiteSofieGithubPages/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/websiteSofieGithub/websiteSofieGithubPages/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/websiteSofieGithubPages/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/websiteSofieGithubPages/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/websiteSofieGithub/websiteSofieGithubPages/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html#agenda" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/websiteSofieGithub/websiteSofieGithubPages/index.html#agenda" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
@@ -479,7 +450,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -487,16 +458,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -507,12 +478,13 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html#agenda" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html#agenda" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
       </list>
@@ -558,7 +530,23 @@
       <workItem from="1534574081021" duration="87000" />
       <workItem from="1536343920991" duration="502000" />
       <workItem from="1536481022517" duration="12000" />
-      <workItem from="1536491465780" duration="875000" />
+      <workItem from="1536491465780" duration="3311000" />
+      <workItem from="1536688262451" duration="609000" />
+      <workItem from="1538205545201" duration="66000" />
+      <workItem from="1538300224811" duration="337000" />
+      <workItem from="1540485189057" duration="17000" />
+      <workItem from="1540485302928" duration="3993000" />
+      <workItem from="1540713387410" duration="2343000" />
+      <workItem from="1541440635484" duration="1165000" />
+      <workItem from="1542365444725" duration="303000" />
+      <workItem from="1542365783907" duration="598000" />
+      <workItem from="1542653979996" duration="776000" />
+      <workItem from="1544893688599" duration="169000" />
+      <workItem from="1545476478039" duration="283000" />
+      <workItem from="1547888024663" duration="1827000" />
+      <workItem from="1547890156021" duration="2220000" />
+      <workItem from="1548264178375" duration="12000" />
+      <workItem from="1548264261060" duration="11161000" />
     </task>
     <task id="LOCAL-00001" summary="Initial version">
       <created>1495481325318</created>
@@ -735,17 +723,143 @@
       <option name="project" value="LOCAL" />
       <updated>1532282285390</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Agenda">
+      <created>1536492356395</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1536492356395</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Agenda">
+      <created>1536492456665</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1536492456665</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Agenda">
+      <created>1538205575831</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1538205575831</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Agenda">
+      <created>1540489686964</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1540489686965</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Agenda">
+      <created>1540715449846</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1540715449846</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Agenda">
+      <created>1541441781861</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1541441781861</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Agenda">
+      <created>1542654744266</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542654744266</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Agenda">
+      <created>1544893851064</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1544893851064</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Agenda">
+      <created>1547889246737</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547889246737</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Agenda">
+      <created>1547889377860</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1547889377860</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Agenda">
+      <created>1547889785846</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1547889785846</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Agenda">
+      <created>1547890357033</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1547890357033</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Agenda">
+      <created>1547892083438</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1547892083438</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Agenda">
+      <created>1547892242882</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1547892242882</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Agenda">
+      <created>1548265003067</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1548265003067</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Agenda">
+      <created>1548277417659</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1548277417659</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Agenda">
+      <created>1548277637986</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1548277637986</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Agenda">
+      <created>1548278036038</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1548278036038</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20486000" />
+    <option name="totallyTimeSpent" value="48801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1844197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11526232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -753,7 +867,6 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Nl-Palette" order="7" />
-      <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -767,8 +880,10 @@
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.23578364" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.24324325" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="15" />
+      <window_info anchor="bottom" id="Flutter Performance" order="16" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -781,17 +896,16 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Flutter Inspector" order="10" />
       <window_info anchor="right" id="Flutter Outline" order="11" />
+      <window_info anchor="right" id="Maven" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Initial version" />
     <MESSAGE value="Changed readme" />
     <MESSAGE value="Added Something in thw Water" />
@@ -802,7 +916,8 @@
     <MESSAGE value="Added What About Us" />
     <MESSAGE value="New song" />
     <MESSAGE value="New song - La Vie En Rose" />
-    <option name="LAST_COMMIT_MESSAGE" value="New song - La Vie En Rose" />
+    <MESSAGE value="Agenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agenda" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/util.js">
@@ -826,7 +941,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/front_image.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/front_image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2159">
@@ -843,17 +967,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/front_image3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/images/dark-arrow.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/youtube/a_thousand_years.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="1653" column="16" selection-start-line="1653" selection-start-column="16" selection-end-line="1653" selection-end-column="16" />
+        <state relative-caret-position="507">
+          <caret line="1637" lean-forward="true" selection-start-line="1637" selection-end-line="1637" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="88" column="107" selection-start-line="88" selection-start-column="107" selection-end-line="88" selection-end-column="107" />
+        <state relative-caret-position="453">
+          <caret line="291" column="20" selection-start-line="291" selection-start-column="20" selection-end-line="291" selection-end-column="20" />
         </state>
       </provider>
     </entry>
