@@ -1843,6 +1843,7 @@ body.is-touch .main {
 .banner {
     width: 100%;
     object-fit: contain;
+    max-height: 90vh;
 }
 #intro {
     /*background: url("../../images/banner.png") no-repeat center center;*/
