@@ -530,7 +530,6 @@ body, input, textarea, select, button {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     color: inherit;
-    letter-spacing: -0.0325em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -541,7 +540,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h2 {
     font-size: 2.25em;
     line-height: 1.25em;
-    letter-spacing: -0.05em;
 }
 
 @media screen and (max-width: 736px) {
@@ -1256,15 +1254,16 @@ body.is-touch .poptrox-popup .closer {
 
 }
 
-.youtube {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 16px;
-    padding-left: 2px;
-    padding-right: 2px;
-}
+/*.youtube {*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*!*width: 100%;*!*/
+    /*height: 100%;*/
+    /*padding-bottom: 16px;*/
+    /*padding-left: 0px;*/
+    /*padding-right: 0px;*/
+    /*margin-bottom: 20px;*/
+/*}*/
 
 .youtube a:link {
     text-decoration: none;
@@ -1294,96 +1293,79 @@ body.is-touch .poptrox-popup .closer {
 }
 
 /* Gallery */
-
 .gallery {
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
+
     -moz-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    align-items: stretch;
     max-width: 100%;
     margin: 0 auto 2em auto;
 }
 
 .gallery article {
-    -moz-transition: -moz-transform 1s ease, opacity 1s ease;
-    -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-    -ms-transition: -ms-transform 1s ease, opacity 1s ease;
-    transition: transform 1s ease, opacity 1s ease;
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    width: 33%;
-    position: relative;
-    opacity: 1.0;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    width: calc(33% - 150px);
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f9f5f9;
+    /*background-color: #D0CCD0;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
 }
 
+.gallery a {
+    display: block;
+    width: 100%;
+}
+
+.gallery article a img {
+    width: 100%;
+    object-fit: fill;
+    object-position: 0 0;
+}
+
+.gallery h1 {
+    margin-top: 10px;
+}
+.gallery h2 {
+    margin-bottom: 10px;
+}
 @media screen and (min-width: 480px) {
     .gallery article {
-        width: 50%;
+        width: calc(50% - 20px);
     }
 }
 
 @media screen and (min-width: 750px) {
     .gallery article {
-        width: 33%;
+        width: calc(33% - 20px);
     }
 }
 
 @media screen and (min-width: 1024px) {
     .gallery article {
-        width: 25%;
+        width: calc(25% - 20px);
     }
 }
 
 .gallery article .image {
-    margin: 0;
-    display: block;
+    /*margin: 0;*/
+    /*display: block;*/
 }
-
-.gallery article:nth-last-child(1n) {
-    -moz-transition-delay: 0.05s;
-    -webkit-transition-delay: 0.05s;
-    -ms-transition-delay: 0.05s;
-    transition-delay: 0.05s;
-}
-
 
 .gallery.inactive article {
     opacity: 0;
 }
-
-/*.gallery.inactive article.from-left {*/
-    /*-moz-transform: translateX(-14em);*/
-    /*-webkit-transform: translateX(-14em);*/
-    /*-ms-transform: translateX(-14em);*/
-    /*transform: translateX(-14em);*/
-/*}*/
-
-/*.gallery.inactive article.from-right {*/
-    /*-moz-transform: translateX(14em);*/
-    /*-webkit-transform: translateX(14em);*/
-    /*-ms-transform: translateX(14em);*/
-    /*transform: translateX(14em);*/
-/*}*/
-
-/*.gallery.inactive article.from-top {*/
-    /*-moz-transform: translateY(-7em);*/
-    /*-webkit-transform: translateY(-7em);*/
-    /*-ms-transform: translateY(-7em);*/
-    /*transform: translateY(-7em);*/
-/*}*/
-
-/*.gallery.inactive article.from-bottom {*/
-    /*-moz-transform: translateY(7em);*/
-    /*-webkit-transform: translateY(7em);*/
-    /*-ms-transform: translateY(7em);*/
-    /*transform: translateY(7em);*/
-/*}*/
 
 @media screen and (max-width: 480px) {
 
@@ -1624,15 +1606,21 @@ body {
     margin-bottom: 2em;
 }
 
+.main.style3 .content > header h2 {
+    /*color: #f5f6f7;*/
+}
+
 .main.style3.primary {
-    background: #eeeeee;
+    /*background: #cccfd6;*/
+    /*background: #585b62;*/
+    /*background: #3d3d42;*/
     /*background-image: url('../../images/sofie_cafe_blur.jpg');*/
     /*background-size: cover;*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,4896d6+51,207cca+100,7db9e8+100 */
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
 }
 
-.main.style3.secondary {
+.secondary {
     background: #f5f6f7;
 }
 
@@ -1845,6 +1833,7 @@ body.is-touch .main {
     object-fit: contain;
     max-height: 90vh;
 }
+
 #intro {
     /*background: url("../../images/banner.png") no-repeat center center;*/
     background-size: contain;
@@ -2005,6 +1994,7 @@ body.is-touch .main {
     min-width: 100px;
     max-width: 100px;
 }
+
 .ticket-button {
     width: 100px;
     min-width: 100px;
@@ -2014,3 +2004,4 @@ body.is-touch .main {
 .btn-primary {
     padding: 0 1em 0 1em;
 }
+
