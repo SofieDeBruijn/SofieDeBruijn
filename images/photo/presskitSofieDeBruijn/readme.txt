@@ -1,0 +1,2 @@
+De foto's mogen gebruikt worden voor publicatiedoeleinden onder vermelding van Sofie de Bruijn en fotograaf Leo Ernst.
+De foto's mogen niet zonder toestemming vooraf worden bewerkt en blijven eigendom van Sofie de Bruijn.
