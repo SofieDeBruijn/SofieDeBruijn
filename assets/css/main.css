@@ -2013,4 +2013,16 @@ body.is-touch .main {
 
 .photo-container a img {
     height: 250px;
+    max-width: 95%;
 }
+.photo-container a img:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(0, 0, 0, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(0, 0, 0, 0.67);
+}
+
