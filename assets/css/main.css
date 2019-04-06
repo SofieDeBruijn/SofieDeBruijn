@@ -778,7 +778,7 @@ form .actions {
         padding: 0 0.5em 0 0;
     }
 
-    form > .actions {
+    form .actions {
         margin: 1em 0 0 0 !important;
     }
 
@@ -2011,3 +2011,7 @@ body.is-touch .main {
     box-shadow:         0px 0px 30px 0px rgba(0, 0, 0, 0.67);
 }
 
+.button-bar {
+    display: flex;
+    justify-content: center;
+}
