@@ -401,10 +401,10 @@ body {
 }
 
 body:before {
-    -moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-    -webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-    -ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-    animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+    /*-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;*/
+    /*-webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;*/
+    /*-ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;*/
+    /*animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;*/
     -moz-transform-origin: 50% 50%;
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
@@ -743,7 +743,7 @@ button.style2.down {
 /* Form */
 
 form {
-    margin: 0 0 2em 0;
+    margin: 0 0 0 0;
 }
 
 form .field {
@@ -1878,14 +1878,6 @@ body.is-touch .main {
 }
 
 #contact .box {
-    /*-moz-transition: -moz-transform 1s ease;*/
-    /*-webkit-transition: -webkit-transform 1s ease;*/
-    /*-ms-transition: -ms-transform 1s ease;*/
-    /*transition: transform 1s ease;*/
-    /*-moz-transform: translateY(0);*/
-    /*-webkit-transform: translateY(0);*/
-    /*-ms-transform: translateY(0);*/
-    /*transform: translateY(0);*/
     position: relative;
 }
 
