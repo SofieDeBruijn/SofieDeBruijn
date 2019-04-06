@@ -760,7 +760,7 @@ form .field.half.first {
     padding: 0 0.75em 0 0;
 }
 
-form > .actions {
+form .actions {
     margin: 1.5em 0 0 0 !important;
 }
 
