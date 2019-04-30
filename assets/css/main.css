@@ -2000,7 +2000,7 @@ body.is-touch .main {
 }
 
 .photo-container a img {
-    height: 250px;
+    max-height: 250px;
     max-width: 95%;
 }
 .photo-container a img:hover{
