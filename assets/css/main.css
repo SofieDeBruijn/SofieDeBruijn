@@ -2015,3 +2015,19 @@ body.is-touch .main {
     display: flex;
     justify-content: center;
 }
+
+.cd-cover {
+    width: 50%;
+}
+
+.bestel-knop {
+    min-width: 150px !important;
+
+}
+
+.bestel-cd-covers {
+
+}
+.bestel-cd-covers > .cd-cover {
+    max-width: 25%;
+}
