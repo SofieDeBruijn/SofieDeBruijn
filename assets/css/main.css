@@ -1498,7 +1498,7 @@ body {
 }
 
 .main.fullscreen {
-    min-height: 100%;
+    /*min-height: 100%;*/
 }
 
 .main.style1 {
@@ -1822,6 +1822,28 @@ body.is-touch .main {
 
 }
 
+#mbYTP_bgndVideo{
+    /*background: rgba(81, 150, 191, 0.60);*/
+    #background: url("../../images/youtube/dont_you_remember.jpg") no-repeat center center;
+    #background: url("../../images/front_image2.jpg") no-repeat center center;
+    background-size: cover;
+}
+.player {
+    width: 100%;
+    background-color: red;
+    height: 400px;
+
+    /*#background: rgba(81, 150, 191, 0.60);*/
+    /*position: relative;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 0;*/
+    /*#background: url("../../images/youtube/dont_you_remember.jpg") no-repeat center center;*/
+    /*#background: url("../../images/front_image2.jpg") no-repeat center center;*/
+    /*!*background-size: cover;*!*/
+    object-fit: contain;
+}
+
 /* Intro */
 
 .banner {
@@ -1835,6 +1857,7 @@ body.is-touch .main {
     background-size: contain;
     width: 100%;
     background-color: black;
+    min-height: 57vw;
 }
 
 #intro h2 {
