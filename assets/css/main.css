@@ -1859,7 +1859,7 @@ body.is-touch .main {
     /*background: url("../../images/banner.png") no-repeat center center;*/
     background-size: contain;
     width: 100%;
-    background-color: black;
+    /*background-color: black;*/
     min-height: 57vw;
 }
 
