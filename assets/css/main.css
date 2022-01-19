@@ -1133,7 +1133,7 @@ section {
 @media screen and (max-width: 1440px) {
     .intro {
 
-        min-height: 80vh;
+        min-height: 100vh;
         padding-top: 200px;
     }
 }
