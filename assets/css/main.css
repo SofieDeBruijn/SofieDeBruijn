@@ -1121,33 +1121,24 @@ section {
 /*}*/
 
 .intro {
-    /*background-image: url("images/dark-arrow.svg");*/
     background-image: url("images/front_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
-}
+    min-height: 75vw;
 
-@media screen and (max-width: 1440px) {
-    .intro {
-        min-height: 100vh;
-        padding-top: 200px;
-    }
 }
 
 .agenda {
     display: flex;
     flex-wrap: wrap;
     background-color: black;
-    /*background-image: url("images/dark-arrow.svg");*/
     background-image: url("images/agenda_background.jpg");
     background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
-    /*font-size: 15px;*/
     width: 100%;
     min-height: 80vh;
     padding-left: 35vw;
@@ -1155,6 +1146,12 @@ section {
     padding-top: 40px;
     padding-bottom: 40px;
     color: #cecece;
+}
+
+@media screen and (max-width: 1440px) {
+    .agenda {
+        padding-left: 0px;
+    }
 }
 
 .agenda-header {
@@ -1307,6 +1304,7 @@ section {
     padding-bottom: 40px;
 }
 
+
 .photogallery .content {
     padding-top: 40px;
     padding-left: 50px;
@@ -1321,10 +1319,23 @@ section {
 
 .photogallery .content .body {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     align-items: stretch;
     justify-items: center;
 }
+
+@media screen and (min-width: 750px) {
+    .photogallery .content .body {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .photogallery .content .body {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
 
 .photogallery .content .body .photo {
     border: solid transparent 0px;
@@ -1337,7 +1348,6 @@ section {
 }
 .photogallery .content .body .photo img {
     width: 100%;
-    height: 20vw;
     object-fit: cover;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -1347,7 +1357,6 @@ section {
 
 .photogallery .content .body .photo img:hover {
     width: 100%;
-    height: 20vw;
     object-fit: cover;
     -webkit-filter: none;
     filter: none;
@@ -1371,11 +1380,12 @@ section {
 /* Contact */
 .contact {
     background-image: url("images/contact_background.jpg");
-    background-position: center;
+    background-color: green;
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
+    min-height: max(100vh, 1000px);
     padding-top: 40px;
     padding-bottom: 40px;
 }
