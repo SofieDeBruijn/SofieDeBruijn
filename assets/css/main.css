@@ -963,87 +963,6 @@ body {
 }
 
 
-/*.agenda {*/
-/*    width: 100%;*/
-/*}*/
-
-/*.agenda-item {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    width: 100%;*/
-/*    justify-content: space-between;*/
-/*    border-top: solid 1px black;*/
-/*    padding-top: 30px;*/
-/*    padding-bottom: 20px;*/
-/*}*/
-
-/*.agenda-item div {*/
-/*    flex-grow: 1;*/
-/*    width: 100%;*/
-/*    flex-basis: 30%;*/
-/*}*/
-
-/*.agenda-item .date {*/
-/*    !*background-color: red;*!*/
-/*    flex-basis: 20%;*/
-/*}*/
-
-/*.agenda-item .desc {*/
-/*    !*background-color: green;*!*/
-/*    font-weight: bold;*/
-/*    flex-basis: 30%;*/
-/*}*/
-
-/*.agenda-item .place {*/
-/*    !*background-color: blue;*!*/
-/*    flex-basis: 20%;*/
-/*}*/
-
-/*@media only screen and (max-width: 600px) {*/
-/*    .agenda-item .place {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
-
-/*.agenda-item .tickets {*/
-/*    !*background-color: orange;*!*/
-/*    min-width: 110px;*/
-/*    flex-basis: 1%;*/
-
-/*}*/
-
-/*.agenda-item .info {*/
-/*    !*background-color: yellow;*!*/
-/*    min-width: 110px;*/
-/*    flex-basis: 1%;*/
-/*}*/
-
-/*.agenda form {*/
-/*    display: flex;*/
-/*    align-items: end;*/
-/*    justify-content: flex-end;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-
-/*.info-button {*/
-/*    width: 100px;*/
-/*    min-width: 100px;*/
-/*    max-width: 100px;*/
-/*}*/
-
-/*.ticket-button {*/
-/*    width: 100px;*/
-/*    min-width: 100px;*/
-/*    max-width: 100px;*/
-/*}*/
-
-/*.uitverkocht-button {*/
-/*    width: 150px;*/
-/*    min-width: 150px;*/
-/*    max-width: 150px;*/
-/*    background-color: #b9babb !important;*/
-/*}*/
-
 section {
     scroll-behavior: smooth;
 }
@@ -1088,38 +1007,6 @@ section {
 }
 
 
-/*.iframe_wrapper {*/
-/*    width: 80%;*/
-/*    height: 100%;*/
-/*    margin: 0 auto;*/
-/*}*/
-
-/*.h_iframe {*/
-/*    position: relative;*/
-/*    padding-top: 56%;*/
-/*}*/
-
-/*.h_iframe iframe {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
-
-/*.message {*/
-/*    margin-top: 70px;*/
-/*    text-align: center;*/
-/*}*/
-/*.message span {*/
-/*    background-color: #ffff00;*/
-/*    text-align: center;*/
-/*    font-size: 200%;*/
-/*    font-weight: bold;*/
-/*    padding: 10px 20px;*/
-
-/*}*/
-
 .intro {
     background-image: url("images/front_image.jpg");
     background-position: center;
@@ -1141,16 +1028,17 @@ section {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     min-height: 80vh;
-    padding-left: 35vw;
+    padding-left: 0px;
     padding-right: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50vw;
     color: #cecece;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .agenda {
-        padding-left: 0px;
+        padding-bottom: 40px;
+        padding-left: 35vw;
     }
 }
 
