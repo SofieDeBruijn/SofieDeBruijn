@@ -900,10 +900,11 @@ section {
     margin-top: 20px;
 }
 
-.aboutme .content .body .highlight{
+.aboutme .content .body .highlight {
     color: #67391c;
     font-weight: 900;
 }
+
 .aboutme .photo {
     flex: 4;
     background-image: url("images/aboutme.jpg");
@@ -961,6 +962,7 @@ section {
 .photogallery .content .download {
     text-decoration: none;
 }
+
 .photogallery .content .body .photo img {
     width: 100%;
     object-fit: cover;
@@ -992,6 +994,47 @@ section {
     color: #39454b;
 }
 
+.videogallery .body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.videogallery .content {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.videogallery .content .body {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.videogallery img {
+    width: 100%;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.4s;
+}
+
+.videogallery img:hover {
+    width: 100%;
+    object-fit: cover;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.videogallery article {
+    width: 100%;
+    display: flex;
+}
+
+.videogallery .youtube h1 {
+    display: none;
+}
+
+
 /* Contact */
 .contact {
     background-image: url("images/contact_background.jpg");
@@ -1008,6 +1051,7 @@ section {
 .contact .content {
     padding-top: 40px;
 }
+
 .contact .content .title {
     padding-bottom: 40px;
     text-transform: uppercase;
@@ -1020,7 +1064,7 @@ section {
     margin-right: 10vw;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"], input[type="email"], textarea {
     background-color: rgba(255, 255, 255, 0.23);
     border: none;
     color: white;
@@ -1028,4 +1072,12 @@ section {
 
 .contact input::placeholder, textarea::placeholder {
     color: white;
+}
+
+.handler {
+    width: 600px;
+}
+
+.handler > div {
+    display: inline-block;
 }

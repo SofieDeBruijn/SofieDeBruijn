@@ -42,11 +42,11 @@
         <div class="desc2">Theaterbakkerheij Gouda</div>
         <div class="last-row">
             <div class="time">20:00 uur</div>
-<!--            <div class="tickets">-->
-<!--                <form action="http://www.theaterbakkerheij.nl/ticketservice/">-->
-<!--                    <input type="submit" class="ticket-button" value="Bestel kaarten"/>-->
-<!--                </form>-->
-<!--            </div>-->
+            <!--            <div class="tickets">-->
+            <!--                <form action="http://www.theaterbakkerheij.nl/ticketservice/">-->
+            <!--                    <input type="submit" class="ticket-button" value="Bestel kaarten"/>-->
+            <!--                </form>-->
+            <!--            </div>-->
         </div>
     </div>
     <div class="agenda-item" data-event-date="2022-04-02">
@@ -71,6 +71,75 @@
     </div>
 </section>
 
+<section id="video">
+    <div class="handler">
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+        <div>QQQ</div>
+
+        <p>qwewqwqe</p>
+    </div>
+    <a href="#" id="showMore">Show more</a>
+    <a href="#" id="showLess">Show less</a>
+</section>
+<script src="assets/js/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var images = $(".handler > div").hide()
+        var x = 1;
+        var showMore = $('#showMore');
+        var showLess = $('#showLess');
+        var funcs = {
+            'showMore': function (event) {
+                ++x;
+                console.log('QQQ x: ', x);
+                event.preventDefault();
+                show();
+            },
+            'showLess': function (event) {
+                --x;
+                console.log('QQQ x: ', x);
+                event.preventDefault();
+                show();
+            }
+        }
+        $('.controls').on('click', 'a', function (e) {
+            return (funcs[e.target.id] || function (event) {
+                event.preventDefault();
+            })(), false;
+        });
+
+        function show() {
+            console.log('QQQ show: ');
+            images.hide().filter(function (i) {
+                return i < (x * 3);
+            }).show();
+            showMore.show().filter(function () {
+                return !images.is(':hidden');
+            }).hide();
+            showLess.show().filter(function () {
+                return x === 1;
+            }).hide();
+        }
+
+        show();
+    });
+</script>
 
 <section id="overmij" class="aboutme">
     <div class="content">
@@ -79,14 +148,17 @@
         </div>
         <div class="body">
             <p>Na een optreden voor <span class="highlight">10.000 man</span> als 12-jarige winnares van de Junior Amateurshow wist ik het zeker, dit is mijn toekomst!
-                Ik ging op zangles, pianoles, gitaarles en heb heel veel opgetreden. Met als hoogtepunten een duet met <span class="highlight">Paul de Leeuw</span> en mijn deelname aan We Want More. Ik begon met een YouTubekanaal met voornamelijk Engelse covers. Al gauw schreef ik
-                mijn eigen nummers, maar dan in het Nederlands omdat ik me merkte dat ik me daar beter in kon uitdrukken. Mijn eerste <span class="highlight">theatervoorstelling ‘PuberTijd!’</span> schreef en speelde ik in de zomer van 2019 voor 5 uitverkochte zalen. Ik was toen
+                Ik ging op zangles, pianoles, gitaarles en heb heel veel opgetreden. Met als hoogtepunten een duet met <span class="highlight">Paul de Leeuw</span> en mijn deelname aan We Want More. Ik begon met een YouTubekanaal met voornamelijk
+                Engelse covers. Al gauw schreef ik
+                mijn eigen nummers, maar dan in het Nederlands omdat ik me merkte dat ik me daar beter in kon uitdrukken. Mijn eerste <span class="highlight">theatervoorstelling ‘PuberTijd!’</span> schreef en speelde ik in de zomer van 2019 voor 5
+                uitverkochte zalen. Ik was toen
                 17 en op dat moment ontstond mijn droom: met een eigen theatershow door Nederland touren!
             </p>
             <br/>
             <p>
                 Op dit moment volg ik Practicum Musicae bij het <span class="highlight">Koninklijk Conservatorium</span> in Den Haag, gecombineerd met de studie Pedagogische Wetenschappen aan de Universiteit Leiden.
-                Wat optredens en voorstellingen betreft gooit Corona nogal wat roet in het eten, maar het biedt ook weer nieuwe kansen. Onlangs heb ik mogen presenteren in de <span class="highlight">film</span> ‘Gouda bij Kaarslicht’, een leuke, nieuwe ervaring!
+                Wat optredens en voorstellingen betreft gooit Corona nogal wat roet in het eten, maar het biedt ook weer nieuwe kansen. Onlangs heb ik mogen presenteren in de <span class="highlight">film</span> ‘Gouda bij Kaarslicht’, een leuke,
+                nieuwe ervaring!
             </p>
             <br/>
             <p>
@@ -113,38 +185,395 @@
             <div class="photo"><a href="images/photogallery/pubertijd_crew_full.jpg" data-lightbox="photo"><img src="images/photogallery/pubertijd_crew.jpg"></a></div>
             <div class="photo"><a href="images/photogallery/pubertijd_generale_full.jpg" data-lightbox="photo"><img src="images/photogallery/pubertijd_generale.jpg"></a></div>
             <div class="photo"><a href="images/photogallery/anders_dan_ieder_jaar_full.jpg" data-lightbox="photo"><img src="images/photogallery/anders_dan_ieder_jaar.jpg"></a></div>
-
-
-
-
-
-<!--            <div class="photo"><a href="images/photogallery/old/bubbly.jpg" data-lightbox="photo"><img src="images/photogallery/old/bubbly.jpg" alt="earth!"></a></div>-->
-<!--            <div class="photo">-->
-<!--                <a href="images/photogallery/old/anders_dan_ieder_jaar.jpg" data-lightbox="photo"><img src="images/photogallery/old/anders_dan_ieder_jaar.jpg" alt="earth!"></a>-->
-<!--            </div>-->
-<!--            <div class="photo">-->
-<!--                <a href="images/photogallery/je%20taime.png" data-lightbox="photo"><img src="images/photogallery/je%20taime.png" alt="earth!"></a>-->
-<!--            </div>-->
-<!--            <div class="photo">-->
-<!--                <a href="images/photogallery/i%20dont%20wanna%20see%20her%20with%20you.jpg" data-lightbox="photo"><img src="images/photogallery/i%20dont%20wanna%20see%20her%20with%20you.jpg" alt="earth!"></a>-->
-<!--            </div>-->
-<!--            <div class="photo">-->
-<!--                <img src="images/photogallery/Paul%20de%20Leeuw%20-%20Wie%20Steelt%20mijn%20show%20large.jpg" alt="earth!">-->
-<!--            </div>-->
-<!--            <div class="photo">-->
-<!--                <img src="images/photogallery/silver%20lining%20thumbnail.png" alt="earth!">-->
-<!--            </div>-->
-<!--            <div class="photo">-->
-<!--                <img src="images/photogallery/youtube%20still%20back%20to%20december.png" alt="earth!">-->
-<!--            </div>-->
-<!--            <div class="photo">-->
-<!--                <img src="images/photogallery/old/million_years_ago.jpg" alt="earth!">-->
-<!--            </div>-->
         </div>
         <br/><br/>
         <!--        <div>Fotografie: <a href="https://www.facebook.com/leoernstfotografie" target="_blank">Leo Ernst</a></div>-->
         <!--        <div><a href="images/photo/pressKitSofieDeBruijnPart1.zip" class="download icon fa-download">  Presskit deel 1</a></div>-->
         <!--        <div><a href="images/photo/pressKitSofieDeBruijnPart2.zip" class="download icon fa-download">  Presskit deel 2</a></div>-->
+    </div>
+</section>
+
+<section id="videos" class="videogallery">
+    <div class="content">
+        <div class="title">
+            <h2>Video</h2>
+        </div>
+        <div class="body">
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=iiRhpWhdHWU&list=UUFZOo_UT-vUM6ey3a5O5JUw&index=1">
+                    <img class="image fit" src="images/youtube/anders_dan_ieder_jaar.jpg"
+                         title="Sofie de Bruijn - Anders dan ieder jaar (officiële videoclip)"
+                         alt=""/>
+                    <h1>Anders dan ieder jaar</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=R53kcfRPS8I&list=UUFZOo_UT-vUM6ey3a5O5JUw&index=2">
+                    <img class="image fit" src="images/youtube/anders_dan_ieder_jaar_behind_the_scenes.jpg"
+                         title="Sofie de Bruijn - Anders dan ieder jaar - Behind the scenes"
+                         alt=""/>
+                    <h1>Anders dan ieder jaar</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=mN6XMxS9sEI&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/dont-worry-about-me.jpg"
+                         title="Frances - Don't worry about me - Sofie de Bruijn & Maurits Kappetijn"
+                         alt=""/>
+                    <h1>Frances - Don't worry about me</h1>
+                    <h2>Sofie de Bruijn & Maurits Kappetijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=oenEsmuqVbg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/laat-mij-het-zijn.jpg"
+                         title="Wende Snijders - Laat mij het zijn - Sofie de Bruijn & Maurits Kappetijn"
+                         alt=""/>
+                    <h1>Wende Snijders - Laat mij het zijn</h1>
+                    <h2>Sofie de Bruijn & Maurits Kappetijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=KxhxIcwdhR0&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/de-man-die-niet-kan-gaan.jpg"
+                         title="Nielson / The Script - De vrouw die niet kan gaan - Sofie de Bruijn & Maurits Kappetijn - LIVE"
+                         alt=""/>
+                    <h1>Nielson / The Script - De vrouw die niet kan gaan - LIVE</h1>
+                    <h2>Sofie de Bruijn & Maurits Kappetijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=T-b55JDcapw&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/je_taime.jpg"
+                         title="Je t'aime - Sofie de Bruijn & Maurits Kappetijn - LIVE" alt=""/>
+                    <h1>Je t'aime - LIVE</h1>
+                    <h2>Sofie de Bruijn & Maurits Kappetijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=hmkBqt2bnTg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/mag_ik_dromen.jpg"
+                         title="PuberTijd! - Mag ik dromen - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Mag ik dromen</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=w-CsfGyyuyE&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/tussen_nu_en_ooit.jpg"
+                         title="PuberTijd! - Tussen nu en ooit - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Tussen nu en ooit</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=e2XkFvMxLjM&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/lijn_7.jpg"
+                         title="PuberTijd! - Lijn 7 - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Lijn 7</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=YlcHSxCFATA&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/parijs_paris.jpg"
+                         title="PuberTijd! - Parijs, Paris - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Parijs, Paris</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=HS0wlYTm5HU&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/jij_hier_vandaan.jpg"
+                         title="PuberTijd! - Jij hier vandaan - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Jij hier vandaan</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=tldwPllzSyg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/we_zouden_moeten_praten.jpg"
+                         title="PuberTijd! - We zouden moeten praten - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - We zouden moeten praten</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=Jt8KghFWTMg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/zo_is_het_gegaan.jpg"
+                         title="PuberTijd! - Zo is het gegaan - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Zo is het gegaan</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=FnFOTm1K-Ww&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/zeg_me_iets.jpg"
+                         title="PuberTijd! - Zeg me iets - Sofie de Bruijn" alt=""/>
+                    <h1>PuberTijd! - Zeg me iets</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=mcpMQtNdLx0&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/wade_in_the_water.jpg"
+                         title="Wade in the Water - Eva Cassidy" alt=""/>
+                    <h1>Wade in the Water - Eva Cassidy</h1>
+                    <h2>Sofie de Bruijn en Rik Reimus</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=u-s-0EeFHNw&index=1&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/always-remember-us-this-way.jpg"
+                         title="Always remember us this way - Sofie de Bruijn" alt=""/>
+                    <h1>Always remember us this way</h1>
+                    <h2>Lady Gaga</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=pFwpkhMIwoA&index=1&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/sam.jpg"
+                         title="Sam - Sofie de Bruijn" alt=""/>
+                    <h1>Sam</h1>
+                    <h2>Jessie Ware</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=0IPWeJyH3fs&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="fit" src="images/youtube/la_vie_en_rose.jpg"
+                         title="La Vie En Rose - Sofie de Bruijn" alt=""/>
+                    <h1>La Vie En Rose</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=cYb5Ppuajvg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="fit" src="images/youtube/you_should_have_known.jpg"
+                         title="You Should Have Known - Sofie de Bruijn (Official Video)" alt=""/>
+                    <h1>You Should Have Known (Official Video)</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=DoUphpLzJQc&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/house_upon_the_hill.png"
+                         title="House Upon The Hill - Sofie de Bruijn (Official Video)" alt=""/>
+                    <h1>House Upon The Hill (Official Video)</h1>
+                    <h2>Sofie de Bruijn</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=QbUHckNhA3s&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/say-you-love-me---jessie-ware.jpg"
+                         title="Say You Love Me - Jessie Ware" alt=""/>
+                    <h1>Say You Love Me</h1>
+                    <h2>Jessie Ware</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=Z-gPNKdKOQY&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/you_lost_me.jpg" title="You lost me - Christina Aguilera"
+                         alt=""/>
+                    <h1>You lost me</h1>
+                    <h2>Christina Aguilera</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=32EGNTvcHAo&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/what_about_us.jpg" title="Pink - What About Us" alt=""/>
+                    <h1>What About Us</h1>
+                    <h2>P!nk</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=Cst5cypD8jg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/at_seventeen.jpg" title="Janis Ian - At Seventeen"
+                         alt=""/>
+                    <h1>At Seventeen</h1>
+                    <h2>Janis Ian</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=r3o0OnFHA7k&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/bubbly.jpg" title="Colbie Caillat - Bubbly" alt=""/>
+                    <h1>Bubbly</h1>
+                    <h2>Colbie Caillat</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=uGEsgRgHwPg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/dat_ik_je_mis.jpg" title="Dat ik je mis" alt=""/>
+                    <h1>Dat ik je mis</h1>
+                    <h2>Maaike Ouboter</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=XlStmGkna8I&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/something_in_the_water.jpg"
+                         title="Something in the Water" alt=""/>
+                    <h1>Something in the Water</h1>
+                    <h2>Brooke Fraser</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?list=UUFZOo_UT-vUM6ey3a5O5JUw&v=hWgHFiMZkfs">
+                    <img class="image fit" src="images/youtube/cant_help_falling_in_love.jpg"
+                         title="Can't help falling in love" alt=""/>
+                    <h1>Can't help falling in love</h1>
+                    <h2>Elvis Presley</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=j--sgKCJHXQ&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/i_dont_wanna_see_her_with_you.jpg"
+                         title="I don't wanna see you with her" alt=""/>
+                    <h1>I don't wanna see you with her</h1>
+                    <h2>Maria Mena</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=q64ohbW60dg&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/and_she_will_miss_you.jpg" title="And She Will Miss You"
+                         alt=""/>
+                    <h1>And She Will Miss You</h1>
+                    <h2>Gracie Abrams</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=xNj5OIWekfk&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/a_thousand_years.png" title="A Thousand Years" alt=""/>
+                    <h1>A Thousand Years</h1>
+                    <h2>Christina Perri</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=1oWik-Wg2Tw&list=UUFZOo_UT-vUM6ey3a5O5JUw">
+                    <img class="image fit" src="images/youtube/if_i_were_a_sailboat.jpg" title="Jar of Hearts" alt=""/>
+                    <h1>If You Were a Sailboat</h1>
+                    <h2>Katie Melua</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=mmSB0aflc34&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO&index=1">
+                    <img class="image fit" src="images/youtube/jar_of_hearts.png" title="Jar of Hearts" alt=""/>
+                    <h1>Jar of Hearts</h1>
+                    <h2>Christina Perri</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=fxGhTj1higs&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/make_you_feel_my_love.png" title="Make You Feel My Love"
+                         alt=""/>
+                    <h1>Make You Feel My Love / Zo puur kan liefde zijn</h1>
+                    <h2>Duet with Paul de Leeuw from the show 'Wie steelt mijn show?'</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=LIRo8SFP9fI&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/white_horse.png" title="White Horse" alt=""/>
+                    <h1>White Horse</h1>
+                    <h2>Taylor Swift</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=RrJnTvpFSjE&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/million_years_ago.jpg" title="Adele / Million Years Ago"
+                         alt=""/>
+                    <h1>Million Years Ago</h1>
+                    <h2>Adele</h2>
+                </a>
+            </article>
+
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=npWLamNepcU&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/dont_you_remember.jpg" title="Don't You Remember"
+                         alt=""/>
+                    <h1>Don't You Remember</h1>
+                    <h2>Adele</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=QlwuXO_5HE4&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/hiding_my_heart.png" title="Hiding my heart" alt=""/>
+                    <h1>Hiding my heart</h1>
+                    <h2>Adele</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=GABAeUIVFp8&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/silver_lining.png" title="My Silver Lining" alt=""/>
+                    <h1>My Silver Lining</h1>
+                    <h2>First Aid Kit</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=0zwGAfUZwJU&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/hometown_glory.png" title="Hometown Glory" alt=""/>
+                    <h1>Hometown Glory</h1>
+                    <h2>Adele</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=2N5_2DZWCpM&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/when_we_were_young.png" title="When We Were Young"
+                         alt=""/>
+                    <h1>When We Were Young</h1>
+                    <h2>Adele</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=P39t9yWeFJQ&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/everytime_we_touch.png" title="Everytime We Touch"
+                         alt=""/>
+                    <h1>Everytime We Touch</h1>
+                    <h2>Cascada</h2>
+                </a>
+            </article>
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=V195n3m7ldA&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/back_to_december.png" title="Back To December" alt=""/>
+                    <h1>Back To December</h1>
+                    <h2>Taylor Swift</h2>
+                </a>
+            </article>
+
+            <article class="youtube">
+                <a href="https://www.youtube.com/watch?v=gWIV7P13e-I&list=PL89bQoUxaeneC3mPh1k0yMJn5Qg7asksO">
+                    <img class="image fit" src="images/youtube/skyfall.png" title="Skyfall" alt=""/>
+                    <h1>Skyfall</h1>
+                    <h2>Adele</h2>
+                </a>
+            </article>
+            <div>
+                <button id="showMoreVideos">Show more</button>
+            </div>
+            <br/><br/>
+            <!--        <div>Fotografie: <a href="https://www.facebook.com/leoernstfotografie" target="_blank">Leo Ernst</a></div>-->
+            <!--        <div><a href="images/photo/pressKitSofieDeBruijnPart1.zip" class="download icon fa-download">  Presskit deel 1</a></div>-->
+            <!--        <div><a href="images/photo/pressKitSofieDeBruijnPart2.zip" class="download icon fa-download">  Presskit deel 2</a></div>-->
+        </div>
     </div>
 </section>
 
@@ -197,7 +626,6 @@
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
-<!--<script src="assets/js/jquery.poptrox.min.js"></script>-->
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
@@ -206,26 +634,6 @@
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
 <script src="lightbox/js/lightbox.js"></script>
-<!--<script src="assets/js/jquery.mb.YTPlayer.min.js?_bn=6057"></script>-->
-<!--<script>-->
-<!--    var videos = [-->
-<!--        {-->
-<!--            videoURL: "iiRhpWhdHWU",-->
-<!--            containment: '#intro',-->
-<!--            addRaster: false,-->
-<!--            stopMovieOnBlur: true,-->
-<!--            mute: true,-->
-<!--            startAt: 0,-->
-<!--            opacity: 1,-->
-<!--            gaTrack: true,-->
-<!--            optimizeDisplay: false,-->
-<!--            quality: "highres",-->
-<!--            vol: 100-->
-<!--        }-->
-<!--    ];-->
-<!--    // $("#bgndVideo").YTPlaylist(videos, true);-->
-<!--</script>-->
-
 
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -254,11 +662,34 @@
         'positionFromTop': 100,
         'wrapAround': true
     })
+
 </script>
 <script>
     $(".photo").click(function () {
         $(this).children().toggleClass("large-image");
     });
+
+    $(document).ready(function () {
+        var images = $(".youtube").hide(), x = 8;
+        console.log('QQQ images.length: ', images.length);
+        var showMore = $('#showMoreVideos').click(function () {
+            x = x + 4;
+            show();
+        });
+
+        function show() {
+            images.hide().filter(function (i) {
+                console.log('QQQ i: ', i, i < (x));
+                return i < (x);
+            }).show();
+            showMore.show().filter(function () {
+                return !images.is(':hidden');
+            }).hide();
+        }
+
+        show();
+    });
+
 </script>
 </body>
 </html>
