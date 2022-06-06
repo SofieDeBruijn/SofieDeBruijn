@@ -966,8 +966,8 @@ section {
 .photogallery .content .body .photo img {
     width: 100%;
     object-fit: cover;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+    /*filter: grayscale(100%);*/
     transition: all 0.4s;
 
 }
@@ -1007,7 +1007,19 @@ section {
 
 .videogallery .content .body {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 100%;
+}
+
+@media screen and (min-width: 750px) {
+    .videogallery .content .body {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .videogallery .content .body {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
 }
 
 .videogallery img {
@@ -1018,7 +1030,7 @@ section {
     transition: all 0.4s;
 }
 
-.videogallery img:hover {
+.videogallery article:hover {
     width: 100%;
     object-fit: cover;
     -webkit-filter: none;
@@ -1027,13 +1039,44 @@ section {
 
 .videogallery article {
     width: 100%;
+    max-width: 100%;
     display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: calc(56.25% - 50px);
+    color: white;
+    text-decoration: none;
+    /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
 }
 
-.videogallery .youtube h1 {
-    display: none;
+.videogallery .youtube .info {
+    padding: 20px;
+}
+.videogallery .youtube .info .title1 {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.videogallery .youtube .info .title2 {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
+.videogallery .showMore {
+    background-color: transparent;
+    color: black;
+    font-size: 150%;
+}
 
 /* Contact */
 .contact {
