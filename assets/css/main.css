@@ -998,6 +998,9 @@ section {
     padding-bottom: 40px;
 }
 
+.videogallery .body a {
+    text-decoration: none;
+}
 .videogallery .content {
     padding-top: 40px;
     padding-left: 50px;
