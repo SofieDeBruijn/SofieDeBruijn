@@ -966,10 +966,9 @@ section {
 .photogallery .content .body .photo img {
     width: 100%;
     object-fit: cover;
-    /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
-    /*filter: grayscale(100%);*/
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     transition: all 0.4s;
-
 }
 
 .photogallery .content .body .photo img:hover {
@@ -1047,7 +1046,7 @@ section {
     padding-top: calc(56.25% - 50px);
     color: white;
     text-decoration: none;
-    /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 }
 
 .videogallery .youtube .info {
