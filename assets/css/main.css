@@ -900,10 +900,11 @@ section {
     margin-top: 20px;
 }
 
-.aboutme .content .body .highlight{
+.aboutme .content .body .highlight {
     color: #67391c;
     font-weight: 900;
 }
+
 .aboutme .photo {
     flex: 4;
     background-image: url("images/aboutme.jpg");
@@ -961,13 +962,13 @@ section {
 .photogallery .content .download {
     text-decoration: none;
 }
+
 .photogallery .content .body .photo img {
     width: 100%;
     object-fit: cover;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     transition: all 0.4s;
-
 }
 
 .photogallery .content .body .photo img:hover {
@@ -992,6 +993,90 @@ section {
     color: #39454b;
 }
 
+.videogallery .body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.videogallery .content {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.videogallery .content .body {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+@media screen and (min-width: 750px) {
+    .videogallery .content .body {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .videogallery .content .body {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+.videogallery img {
+    width: 100%;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.4s;
+}
+
+.videogallery article:hover {
+    width: 100%;
+    object-fit: cover;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.videogallery article {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: calc(56.25% - 50px);
+    color: white;
+    text-decoration: none;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+}
+
+.videogallery .youtube .info {
+    padding: 20px;
+}
+.videogallery .youtube .info .title1 {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.videogallery .youtube .info .title2 {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.videogallery .showMore {
+    background-color: transparent;
+    color: black;
+    font-size: 150%;
+}
+
 /* Contact */
 .contact {
     background-image: url("images/contact_background.jpg");
@@ -1008,6 +1093,7 @@ section {
 .contact .content {
     padding-top: 40px;
 }
+
 .contact .content .title {
     padding-bottom: 40px;
     text-transform: uppercase;
@@ -1020,7 +1106,7 @@ section {
     margin-right: 10vw;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"], input[type="email"], textarea {
     background-color: rgba(255, 255, 255, 0.23);
     border: none;
     color: white;
@@ -1028,4 +1114,12 @@ section {
 
 .contact input::placeholder, textarea::placeholder {
     color: white;
+}
+
+.handler {
+    width: 600px;
+}
+
+.handler > div {
+    display: inline-block;
 }
