@@ -1,0 +1,41 @@
+{
+  "@context":
+  {
+    "@version": 1.1,
+    "bid": "https://www.sofiedebruijn.com/police-press-card-v1#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+
+    "PolicePressCardCredential" : "bid:PolicePressCardCredential",
+    "Person" : "schema:person",
+
+    "validFrom": {
+      "@id": "bid:validFrom",
+      "@type": "xsd:dateTime"
+    },
+    "validUntil": {
+      "@id": "bid:validUntil",
+      "@type": "xsd:dateTime"
+    },
+    "givenName": {
+      "@id": "bid:givenName",
+      "@type": "schema:givenName"
+    },
+    "familyName": {
+      "@id": "bid:familyName",
+      "@type": "schema:familyName"
+    },
+    "additionalName": {
+      "@id": "bid:additionalName",
+      "@type": "schema:additionalName"
+    },
+    "idNumber": "bid:idNumber",
+    "idImage": {
+      "@id": "bid:idImage",
+      "@type": "schema:image"
+    },
+    "domain": "bid:domain",
+    "employer": "bid:employer",
+    "locality": "bid:locality"
+  }
+}
