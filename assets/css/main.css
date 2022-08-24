@@ -844,6 +844,7 @@ section {
 .agenda-item .tickets {
     margin-top: 10px;
 }
+
 .agenda-item .ticket-button {
     box-sizing: border-box; /* <- added this */
     height: unset;
