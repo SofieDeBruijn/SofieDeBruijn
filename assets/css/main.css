@@ -760,6 +760,7 @@ section {
     padding-top: 40px;
     padding-bottom: 50vw;
     color: #cecece;
+    margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -999,7 +1000,7 @@ section {
 
 .videogallery .body {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 .videogallery .body a {
@@ -1009,6 +1010,11 @@ section {
     padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.videogallery .footer {
+    padding-top: 0px;
+    line-height: normal;
 }
 
 .videogallery .content .body {
@@ -1045,6 +1051,7 @@ section {
 
 .videogallery article {
     width: 100%;
+    min-width: 100%;
     max-width: 100%;
     display: flex;
     background-position: center;
@@ -1057,10 +1064,16 @@ section {
 }
 
 .videogallery .youtube .info {
-    padding: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: rgba(9, 9, 18, 0.87);
 }
 .videogallery .youtube .info .title1 {
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: normal;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -1069,7 +1082,7 @@ section {
     -webkit-box-orient: vertical;
 }
 .videogallery .youtube .info .title2 {
-    font-size: 18px;
+    font-size: 12px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -1087,7 +1100,6 @@ section {
 /* Contact */
 .contact {
     background-image: url("images/contact_background.jpg");
-    background-color: green;
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
