@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Meow+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(247, 185, 161);
+            font-family: "League Spartan", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .header {
+            background-color: rgb(237, 91, 45);
+            text-align: center;
+            padding: 20px;
+            height: 50px;
+        }
+
+        .logo {
+            margin-top: -250px;
+            margin-left: 50px;
+            width: 250px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .persoonlijkecode {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 26px;
+            font-size: 24px;
+            background-color: #fddfd3;
+            border: 3px solid rgb(237, 91, 45);
+            text-align: center;
+        }
+
+        .submitButton {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            font-size: 24px;
+            border-radius: 26px;
+            background-color: black;
+
+        }
+        .headline-text {
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .normal-text {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 110%;
+        }
+        .signature {
+            font-size: 30px;
+            font-family: "Meow Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            margin-left: 24px;
+            /*display:block;*/
+            /*-webkit-transform: rotate(-15deg);*/
+            /*-moz-transform: rotate(-15deg);*/
+            /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support*/
+        }
+    </style>
+    <script>
+        function handleCode() {
+            var code = document.getElementById("persoonlijkecode").value;
+            console.log(code);
+            window.location.href = "https://bit.ly/bedanktband-" + code;
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="header">
+</div>
+<div style="display: flex">
+    <img class="logo" src="images/bedankband_logo.svg" alt="Bandzooi">
+
+    <div class="content">
+        <div class="row">
+            <p class="headline-text">Bedankt dat je er was en je verhaal wilde delen!</p>
+            <p class="normal-text">We hebben jullie nummers gebundeld in een playlist.<br/>Vul hieronder de persoonlijke code van je kaartje in en druk op 'luister nu'.</p>
+            <p class="headline-text">Veel luisterplezier en hopelijk tot ziens!</p>
+            <p class="headline-text">Liefs,<span class="signature">Sofie</span></p>
+        </div>
+        <div class="row">
+            <input class="persoonlijkecode" type="text" id="persoonlijkecode" name="persoonlijkecode" placeholder="Type hier uw code">
+            <button class="submitButton" onclick="handleCode()">Luister nu!</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
